@@ -18,9 +18,6 @@ bridge/
 ├── ProcesoEncriptarBlowfish.java # Newly added algorithm
 └── ProcesoSinEncriptar.java
 
-markdown
-Copy
-Edit
 
 ## 🔐 Encryption Algorithms Implemented
 
