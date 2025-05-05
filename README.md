@@ -3,9 +3,7 @@
 This project demonstrates the **Bridge design pattern** by implementing different encryption algorithms in Java. The client interacts with an abstraction layer (`InterfaceMensajeEncriptacion`), which delegates encryption operations to concrete implementations such as **AES**, **DES**, and **Blowfish**.
 
 ## 📦 Project Structure
-
-patronbridge/
-│
+bridge/
 ├── patronbridge/ # Main class to run the encryption
 │ └── PatronBridgeMain.java
 │
@@ -17,7 +15,7 @@ patronbridge/
 ├── InterfaceEncriptar.java
 ├── ProcesoEncriptarAES.java
 ├── ProcesoEncriptarDES.java
-├── ProcesoEncriptarBlowfish.java # ← Newly added algorithm
+├── ProcesoEncriptarBlowfish.java # Newly added algorithm
 └── ProcesoSinEncriptar.java
 
 markdown
@@ -35,8 +33,8 @@ Edit
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/KillerZeus666/bridge-pattern-encryption.git
-   cd bridge-pattern-encryption
+   git clone https://github.com/KillerZeus666/BrigdeDesignPattern.git
+   cd bridge
 Compile the Java files:
 
 bash
