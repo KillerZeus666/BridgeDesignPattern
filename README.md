@@ -35,7 +35,7 @@ Edit
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/bridge-pattern-encryption.git
+   git clone https://github.com/KillerZeus666/bridge-pattern-encryption.git
    cd bridge-pattern-encryption
 Compile the Java files:
 
