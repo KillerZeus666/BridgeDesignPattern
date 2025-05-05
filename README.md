@@ -18,21 +18,13 @@ This project demonstrates the **Bridge design pattern** by implementing differen
    cd bridge
 Compile the Java files:
 
-bash
-Copy
-Edit
 javac patronbridge/*.java implementacion/*.java encriptacion/*.java
 Run the main class:
 
-bash
-Copy
-Edit
+
 java patronbridge.PatronBridgeMain
 You should see output like:
 
-pgsql
-Copy
-Edit
 Formato AES > <Encrypted AES message>
 Formato DES > <Encrypted DES message>
 Formato Blowfish > <Encrypted Blowfish message>
