@@ -2,22 +2,6 @@
 
 This project demonstrates the **Bridge design pattern** by implementing different encryption algorithms in Java. The client interacts with an abstraction layer (`InterfaceMensajeEncriptacion`), which delegates encryption operations to concrete implementations such as **AES**, **DES**, and **Blowfish**.
 
-## 📦 Project Structure
-bridge/
-├── patronbridge/ # Main class to run the encryption
-│ └── PatronBridgeMain.java
-│
-├── implementacion/ # Bridge interface and abstraction
-│ ├── InterfaceMensajeEncriptacion.java
-│ └── PuenteMensajeEncriptacion.java
-│
-└── encriptacion/ # Encryption algorithm implementations
-├── InterfaceEncriptar.java
-├── ProcesoEncriptarAES.java
-├── ProcesoEncriptarDES.java
-├── ProcesoEncriptarBlowfish.java # Newly added algorithm
-└── ProcesoSinEncriptar.java
-
 
 ## 🔐 Encryption Algorithms Implemented
 
